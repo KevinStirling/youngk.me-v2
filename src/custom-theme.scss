@@ -1,0 +1,55 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+body, html{
+    height: 100%
+  }
+  body{
+    margin: 0;
+  }
+  .mat-tab-label{
+    color: white;   
+    background-color: white;
+  }
+
+$md-youngkme: (
+    50 : #fef3e0,
+    100 : #fce1b3,
+    200 : #facd80,
+    300 : #f7b94d,
+    400 : #f6aa26,
+    500 : #f49b00,
+    600 : #f39300,
+    700 : #f18900,
+    800 : #ef7f00,
+    900 : #ec6d00,
+    A100 : #ffffff,
+    A200 : #ffece0,
+    A400 : #ffcead,
+    A700 : #ffbf93,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$custom-theme-primary: mat-palette($md-youngkme);
+$custom-theme-accent: mat-palette($md-youngkme, A200, A100, A400);
+$custom-theme-warn: mat-palette($mat-red);
+
+$custom-theme: mat-light-theme($custom-theme-primary, $custom-theme-accent, $custom-theme-warn);
+
+@include angular-material-theme($custom-theme);
+
