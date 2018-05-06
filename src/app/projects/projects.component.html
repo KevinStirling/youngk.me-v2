@@ -1,49 +1,11 @@
-<mat-card class="project-card">
-  <div>
+<div class="container">
+  <mat-card *ngFor="let p of projects" class="project-card">
+    <div>
+      <img mat-card-image src="{{p.Image}}">      
+    </div>
     <p>
-      projects works!
+      {{p.Description}}
     </p>
-  </div>
-</mat-card>
-<mat-card class="project-card">
-  <div>
-    <p>
-      projects works!
-    </p>
-  </div>
-</mat-card>
-<mat-card class="project-card">
-  <div>
-    <p>
-      projects works!
-    </p>
-  </div>
-</mat-card>
-<mat-card class="project-card">
-  <div>
-    <p>
-      projects works!
-    </p>
-  </div>
-</mat-card>
-<mat-card class="project-card">
-  <div>
-    <p>
-      projects works!
-    </p>
-  </div>
-</mat-card>
-<mat-card class="project-card">
-  <div>
-    <p>
-      projects works!
-    </p>
-  </div>
-</mat-card>
-<mat-card class="project-card">
-  <div>
-    <p>
-      projects works!
-    </p>
-  </div>
-</mat-card>
+    <p><a href="{{p.Link}}">View project here!</a></p>
+  </mat-card>
+</div>
