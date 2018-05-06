@@ -13,7 +13,7 @@
 #avatar {
   @media only screen and (max-width: 850px) {
     
-      margin-top: 20px;
+      margin-top: 25px;
     
   }
   border-radius: 50%;
@@ -36,27 +36,27 @@ body, html{
 
   a:link, a:visited {
     text-decoration: none;
-    color: #f47a73;
+    color: #ee9452;
 }
 
 
 
 
 $md-youngkme: (
-  50 : #fef0ef,
-  100 : #fcdad7,
-  200 : #fac1bd,
-  300 : #f8a8a3,
-  400 : #f7958f,
-  500 : #f5827b,
-  600 : #f47a73,
-  700 : #f26f68,
-  800 : #f0655e,
-  900 : #ee524b,
+  50 : #fdf2ea,
+  100 : #fadfcb,
+  200 : #f7caa9,
+  300 : #f3b486,
+  400 : #f1a46c,
+  500 : #ee9452,
+  600 : #ec8c4b,
+  700 : #e98141,
+  800 : #e77738,
+  900 : #e26528,
   A100 : #ffffff,
-  A200 : #ffffff,
-  A400 : #ffe2e0,
-  A700 : #ffc9c7,
+  A200 : #fff2ec,
+  A400 : #ffceb9,
+  A700 : #ffbca0,
   contrast: (
       50 : #000000,
       100 : #000000,
@@ -67,13 +67,14 @@ $md-youngkme: (
       600 : #000000,
       700 : #000000,
       800 : #000000,
-      900 : #ffffff,
+      900 : #000000,
       A100 : #000000,
       A200 : #000000,
       A400 : #000000,
       A700 : #000000,
   )
 );
+
 
 
 
