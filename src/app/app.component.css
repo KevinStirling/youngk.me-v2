@@ -1,0 +1,24 @@
+::ng-deep .mat-tab-header {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    max-width: 900px;
+}
+
+.mat-tab-body-wrapper{
+    height: 100%;
+    min-height: 400px;
+}
+
+::ng-deep .mat-tab-header-pagination {
+    display: none !important;
+}
+
+.mat-tab-group .mat-tab-label .mat-tab-label-active{
+    background-color: white;
+
+  }
+
+  ::ng-deep .mat-tab-group.mat-primary .mat-tab-label:not(.mat-tab-disabled):focus, .mat-tab-group.mat-primary .mat-tab-link:not(.mat-tab-disabled):focus, .mat-tab-nav-bar.mat-primary .mat-tab-label:not(.mat-tab-disabled):focus, .mat-tab-nav-bar.mat-primary .mat-tab-link:not(.mat-tab-disabled):focus{
+    background-color: white; 
+  }

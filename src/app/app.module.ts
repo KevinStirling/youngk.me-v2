@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatTabsModule, MatGridListModule, MatCardModule} from '@angular/material';
+import {MatTabsModule, MatGridListModule, MatCardModule, MatButtonModule} from '@angular/material';
 
 
 import { AppComponent } from './app.component';
@@ -19,7 +19,8 @@ import { ProjectsComponent } from './projects/projects.component';
     BrowserAnimationsModule,
     MatTabsModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

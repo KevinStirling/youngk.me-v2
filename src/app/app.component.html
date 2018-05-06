@@ -1,18 +1,10 @@
 <div>
-  <mat-tab-group mat-stretch-tabs color="primary" style="margin-top: 240px;">
+  <mat-tab-group mat-stretch-tabs color="primary" style="padding-top: 240px; z-index: -1;" >
     <mat-tab color="primary"  label="About">
-      <mat-grid-list cols="1" rowHeight="2:1">
-        <mat-grid-tile>
           <app-about style="width: 80%; height: 80%;"></app-about>
-        </mat-grid-tile>
-      </mat-grid-list>
     </mat-tab>
     <mat-tab color="primary" label="Projects">
-      <mat-grid-list cols="1" rowHeight="2:1">
-        <mat-grid-tile>
           <app-projects style="width: 80%; height: 80%;"></app-projects>
-        </mat-grid-tile>
-      </mat-grid-list>
     </mat-tab>
   </mat-tab-group>
 </div>
