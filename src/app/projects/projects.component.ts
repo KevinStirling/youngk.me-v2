@@ -31,7 +31,7 @@ export class ProjectsComponent implements OnInit {
       {
         Image: '../assets/project-images/omnia.png',
         Name: 'Omnia',
-        Description: 'Omnia Labs is a small group of friends who met while attending Montclair State University,'+
+        Description: 'Omnia Labs is a small group of friends who met while attending Montclair State University,' +
         'who decided to create apps and programs, both for practice, and fun.',
         Link: 'https://omnialabs.io/'
       }
