@@ -1,7 +1,5 @@
 .project-card{
     margin: 15px;
     width: 40%;
-    
-    /* height: 80%; */
-    /* flex: 1; */
+    min-width: 280px;
 }
